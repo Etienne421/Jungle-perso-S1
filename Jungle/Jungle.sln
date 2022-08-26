@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jungle_Web", "Jungle\Jungle_Web.csproj", "{BBB7BB2E-CC6A-4134-9D6A-5E9C2884B623}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jungle_DataAccess", "Jungle_DataAccess\Jungle_DataAccess.csproj", "{77505F5A-2053-4883-BF93-54A89C8372D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBB7BB2E-CC6A-4134-9D6A-5E9C2884B623}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBB7BB2E-CC6A-4134-9D6A-5E9C2884B623}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBB7BB2E-CC6A-4134-9D6A-5E9C2884B623}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBB7BB2E-CC6A-4134-9D6A-5E9C2884B623}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77505F5A-2053-4883-BF93-54A89C8372D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77505F5A-2053-4883-BF93-54A89C8372D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77505F5A-2053-4883-BF93-54A89C8372D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77505F5A-2053-4883-BF93-54A89C8372D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {552139DD-78CE-476E-A012-65AA6CB894E6}
+	EndGlobalSection
+EndGlobal
