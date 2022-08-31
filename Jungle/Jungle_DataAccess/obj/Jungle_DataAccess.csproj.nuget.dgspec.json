@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Other\\School\\session_8\\web_avancee\\Jungle-perso\\Jungle-perso-S1\\Jungle\\Jungle_DataAccess\\Jungle_DataAccess.csproj": {}
+    "C:\\Users\\1849654\\Desktop\\Jungle-perso\\Jungle-perso-S1\\Jungle\\Jungle_DataAccess\\Jungle_DataAccess.csproj": {}
   },
   "projects": {
-    "D:\\Other\\School\\session_8\\web_avancee\\Jungle-perso\\Jungle-perso-S1\\Jungle\\Jungle_DataAccess\\Jungle_DataAccess.csproj": {
+    "C:\\Users\\1849654\\Desktop\\Jungle-perso\\Jungle-perso-S1\\Jungle\\Jungle_DataAccess\\Jungle_DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Other\\School\\session_8\\web_avancee\\Jungle-perso\\Jungle-perso-S1\\Jungle\\Jungle_DataAccess\\Jungle_DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\1849654\\Desktop\\Jungle-perso\\Jungle-perso-S1\\Jungle\\Jungle_DataAccess\\Jungle_DataAccess.csproj",
         "projectName": "Jungle_DataAccess",
-        "projectPath": "D:\\Other\\School\\session_8\\web_avancee\\Jungle-perso\\Jungle-perso-S1\\Jungle\\Jungle_DataAccess\\Jungle_DataAccess.csproj",
-        "packagesPath": "C:\\Users\\etiou\\.nuget\\packages\\",
-        "outputPath": "D:\\Other\\School\\session_8\\web_avancee\\Jungle-perso\\Jungle-perso-S1\\Jungle\\Jungle_DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\1849654\\Desktop\\Jungle-perso\\Jungle-perso-S1\\Jungle\\Jungle_DataAccess\\Jungle_DataAccess.csproj",
+        "packagesPath": "C:\\Users\\1849654\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\1849654\\Desktop\\Jungle-perso\\Jungle-perso-S1\\Jungle\\Jungle_DataAccess\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\etiou\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\1849654\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,7 +31,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\1849654\\Desktop\\Jungle-perso\\Jungle-perso-S1\\Jungle\\Jungle_Models\\Jungle_Models.csproj": {
+                "projectPath": "C:\\Users\\1849654\\Desktop\\Jungle-perso\\Jungle-perso-S1\\Jungle\\Jungle_Models\\Jungle_Models.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -61,8 +69,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -71,8 +78,23 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "C:\\Users\\1849654\\Desktop\\Jungle-perso\\Jungle-perso-S1\\Jungle\\Jungle_Models\\Jungle_Models.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\1849654\\Desktop\\Jungle-perso\\Jungle-perso-S1\\Jungle\\Jungle_Models\\Jungle_Models.csproj",
+        "projectName": "Jungle_Models",
+        "projectPath": "C:\\Users\\1849654\\Desktop\\Jungle-perso\\Jungle-perso-S1\\Jungle\\Jungle_Models\\Jungle_Models.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
       }
     }
   }

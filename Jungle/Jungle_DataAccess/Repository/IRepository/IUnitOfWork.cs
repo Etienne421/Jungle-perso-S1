@@ -8,7 +8,11 @@ namespace Jungle_DataAccess.Repository.IRepository
 {
     public interface IUnitOfWork : IDisposable
     {
-        
+        ICountryRepository Country { get; }
+        IDestinationRepository Destination { get; }
+        IGuideRepository Guide { get; }
+        ITravelRecommendationRepository TravelRecommendation { get; }
+        ITravelRepository TravelRepository { get; }
 
         void Save();
     }

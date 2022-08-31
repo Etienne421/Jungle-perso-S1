@@ -222,7 +222,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Country.cs" />
+    <Compile Include="Models\Destination.cs" />
     <Compile Include="Models\ErrorViewModel.cs" />
+    <Compile Include="Models\Guide.cs" />
+    <Compile Include="Models\Travel.cs" />
+    <Compile Include="Models\TravelRecommendation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
